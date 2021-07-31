@@ -1,0 +1,8 @@
+let apple = new Apple(2, "red")
+let human = new Human("Toàn", "Male", 55)
+human.checkApple(apple)
+human.eat(apple)
+document.write(apple.getWeight() + "<br>")
+human.eat(apple)
+document.write(apple.getWeight() + "<br>")
+human.checkApple(apple)
